@@ -24,7 +24,7 @@ def get_two_expenses_which_sum_2020(expenses):
     
     return "Error"
 
-expenses = get_expenses_from_input('input.txt')
+expenses = get_expenses_from_input('../input.txt')
 
 value1, value2 = get_two_expenses_which_sum_2020(expenses)
 print(f"value1={value1}, value2={value2}")
