@@ -2,6 +2,7 @@ def get_expenses_from_input(input_location):
     f = open(input_location, 'r')
     
     expenses = f.read().split('\n')
+    f.close()
     expenses_list_number = []
     for expense in expenses:
         expenses_list_number.append(int(expense))
